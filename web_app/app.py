@@ -41,7 +41,7 @@ def donations_by_region():
 def donors_by_region():
     year = tryget_int(request.args.get('year'), 2015)
     region_name = request.args.get('region')
-    chart = make_detail_plot(donations, year=int(year), region_name=region_name)
+    chart = make_detail_plot(year=year, region_name=region_name)
     script, div = embed.components(chart)
     return render_template('index.html', script=script, div=div, title='')
 
