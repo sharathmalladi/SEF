@@ -38,5 +38,5 @@ A fund raiser event is an event organized by volunteers of the organization to r
 [![](images/Repeat_Donors.png)]
 [2]
 
-[1]: (notebooks/out/market_potential.html)
-[2]: (notebooks/out/donations_year_comparison.html)
+[1]: (https://s3-us-west-2.amazonaws.com/sef-project/market_potential.html)
+[2]: (https://s3-us-west-2.amazonaws.com/sef-project/donations_year_comparison.html)
