@@ -17,10 +17,26 @@ A fund raiser event is an event organized by volunteers of the organization to r
 1. Break down each transaction as a fund raiser or a donation.  
 2. From the fund raiser dollars, extract information about the fund raisers (location, time, size, amount raised).  
 3. From the donation dollars, extract information about the donors (frequency of donation, amount donated, churn by region).  
-4. Provide visualizations that are insightful to the organization.  
-5. Build a web application (hosted in Flask) with an actionable dashboard (this is work in progress).  
+4. Generate insights for the organization for repeat donors.  
+5. Create interactive visualizations using bokeh (see below)
 6. A time-series analysis followed by predictions of the donation amounts into the future.  
 
 ### Folder structure
-- notebooks: This folder has ipython notebooks to perform the steps of feature extraction, visualizations and the time-series analysis. The readme under this folder has more detail about the individual notebooks.
-- web_app: This folder has the web application.
+- notebooks: This folder has ipython notebooks to perform the steps of feature extraction, visualizations and the time-series analysis. The README under this folder has more detail about the individual notebooks.
+
+### Visualizations
+
+#### 1. Where do we see market growth opportunity?
+[![](images/Market_potential.png "Market potential showing current market reach out of total Indian population")]
+[1]
+
+#### 2. How are donations this year in comparison with last year?
+[![](images/Donations_YTD.png "Donations YTD in comparison with the same time last year")]
+[2]
+
+#### 3. How are repeat donors contributing over time?
+[![](images/Repeat_Donors.png)]
+[2]
+
+[1]: (notebooks/out/market_potential.html)
+[2]: (notebooks/out/donations_year_comparison.html)
