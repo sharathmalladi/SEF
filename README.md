@@ -27,16 +27,10 @@ A fund raiser event is an event organized by volunteers of the organization to r
 ### Visualizations
 
 #### 1. Where do we see market growth opportunity?
-[![](images/Market_potential.png "Market potential showing current market reach out of total Indian population")]
-[1]
+[![](images/Market_potential.png "Market potential showing current market reach out of total Indian population")](https://s3-us-west-2.amazonaws.com/sef-project/market_potential.html)
 
 #### 2. How are donations this year in comparison with last year?
-[![](images/Donations_YTD.png "Donations YTD in comparison with the same time last year")]
-[2]
+[![](images/Donations_YTD.png "Donations YTD in comparison with the same time last year")](https://s3-us-west-2.amazonaws.com/sef-project/donations_year_comparison.html)
 
 #### 3. How are repeat donors contributing over time?
 [![](images/Repeat_Donors.png)]
-[2]
-
-[1]: (https://s3-us-west-2.amazonaws.com/sef-project/market_potential.html)
-[2]: (https://s3-us-west-2.amazonaws.com/sef-project/donations_year_comparison.html)
