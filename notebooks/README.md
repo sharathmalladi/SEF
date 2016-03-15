@@ -11,4 +11,4 @@ Notebook name|Description|
 41_ExtractEventData|The organization does not save the fund-raiser information. It is all just buried in the transactions. Here, I apply a heuristic method to identify the fund-raisers and then associate each transaction to the fund-raiser that it belongs to. The methodology identifies peaks in the data (by location and time) to identify the fund-raiser campaigns and then associates each transaction to the nearest peak.
 42_ExtractDonor_Data|Create a donor dataset from the donations and events datasets. Then study repeat donors and overall growth.
 61_TimeSeriesForChannel|Create a time-series of the donation amounts and predict future donations.
-80_BokehPlots|Create two interactive visualizations using bokeh to see market growth potential and YTD comparison for donations with previous year.
+80_Choropleths|Create two interactive visualizations using bokeh to see market growth potential and YTD comparison for donations with previous year.
